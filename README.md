@@ -1,0 +1,2 @@
+# jprotobuf_sample
+init
