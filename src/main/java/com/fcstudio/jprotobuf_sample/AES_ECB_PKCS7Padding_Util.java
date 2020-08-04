@@ -16,7 +16,7 @@ public class AES_ECB_PKCS7Padding_Util {
 	<dependency>
 	    <groupId>org.bouncycastle</groupId>
 	    <artifactId>bcprov-jdk15</artifactId>
-	    <version>1.44</version>
+	    <version>[1.60,)</version>
 	</dependency>
 	*/
 
