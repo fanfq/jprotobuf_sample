@@ -43,7 +43,7 @@ public class TestMain {
             Message newMsg = codec.decode(bb);
             log.info("jprotobuf反序列化：{}", JSON.toJSONString(newMsg));
 
-            log.warn("********************消息头  bodylen(4byte) | remote(1byte) | method (1byte)");
+            log.warn("********************消息头  bodylen(4byte) | remote(2byte) | method (2byte)");
 
             byte[] jEncode = jProtobufEncode((short) 1, (short) 2, bb);
             log.debug("jprotobuf序列化，包含消息头");
